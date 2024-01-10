@@ -129,3 +129,6 @@ TW_INCLUDE_FASTBOOTD := true
 TWRP_EVENT_LOGGING := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# Vendor modules loading
+TW_LOAD_VENDOR_MODULES := "gslX680.ko"
