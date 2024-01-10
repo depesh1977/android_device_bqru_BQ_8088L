@@ -6,9 +6,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_BQ_8088L.mk
+    $(LOCAL_DIR)/twrp_BQ_8088L.mk
 
-COMMON_LUNCH_CHOICES := \
-    omni_BQ_8088L-user \
-    omni_BQ_8088L-userdebug \
-    omni_BQ_8088L-eng
+COMMON_LUNCH_CHOICES := twrp_BQ_8088L-eng
